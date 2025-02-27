@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+    padding: 40px 30px;
+    width: 350px;
+    text-align: center;
+    margin-left: 80px;
+  }
+  
+  .page-container {
+    text-align: center; /* Centrer le contenu horizontalement */
+  }
+  
+  .container img {
+    width: 80px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #e4d7d7;
+  }
+  
+  h2{
+    color: #e5d9d9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px; 
+    margin-right: 15px;
+  }
+
+  form button{
+    margin-left: 18px;
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    color: #555;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+
+  /* Position the Sign Up link in the top right corner */
+  .top-right {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+   /* Ensure it is above other content */
+  }
+  
+  .signup-link {
+    font-weight: bold;
+    color: white;
+    padding: 8px 15px;
+    background-color: #ff0800; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for emphasis */
+  }
+  
+  .signup-link:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  p{
+    color: red;
+  }
